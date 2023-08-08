@@ -8,7 +8,7 @@
 .header {
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(#51865ac4, #94dfb61a),  url(img/banner1.webp);
+    background-image: linear-gradient(#51865ac4, #94dfb61a),  url(img/back.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -21,22 +21,22 @@ nav {
     align-items: center;
 }
 
-nav .logo {
+nav .logo {border-radius: 41px;
     height:80px;            
     width:80px;
     object-fit: fill;
-    background-image:  url(img/logo1.png);
+    background-image:  url(img/logon.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
     
 }
 
-nav .fab {
+/* nav .fab {
     font-size: 42px;
-    /* color: #5236f4; */
+    /* color: #5236f4; 
     color: #24f8c7;
-}
+} */
 
 .nav-links {
     flex: 1;
@@ -52,9 +52,10 @@ nav .fab {
 }
 
 .nav-links ul li a {
+    font-size: 25px;
+    font-weight: 600;
     text-decoration: none;
     color: black;
-    font-size: 18px;
     text-shadow: 2px 2px 5px grey;
 }
 
@@ -192,7 +193,7 @@ nav .fa {
 .verticalLine {
     widtH: 2px;
     height: 100px;
-    background: #24f8c7;
+    background: #c3c514;
     margin: 0 auto 40px;
 }
 
@@ -206,7 +207,7 @@ h1 {
     margin: 15px 0;
     line-height: 50px;
     text-transform: uppercase;
-    color: #24f8c7;
+    color: #c3c514;
 }
 
 p {
@@ -239,7 +240,7 @@ p {
 
 .course-col {
     flex-basis: 31%;
-    background: #fff3f3;
+    background: #e4e4e4;
     border-radius: 10px;
     margin-bottom: 5%;
     padding: 20px 12px;
@@ -385,7 +386,7 @@ p {
     border-radius: 10px;
     margin-bottom: 5%;
     text-align: left;
-    background: #fff3f3;
+    background: #e4e4e4;
     padding: 25px;
     cursor: pointer;
     display: flex;
@@ -409,7 +410,7 @@ p {
 }
 
 .testimonials-col .fa {
-    color: #24f8c7;
+    color: #c3c514;
 }
 
 @media (max-width: 700px) {
@@ -426,7 +427,7 @@ p {
 .cta {
     margin: 100px auto;
     width: 80%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url(img/back1.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url(img/quote1.jpg);
     background-size: cover;
     background-position: center;
     border-radius: 10px;
@@ -501,8 +502,8 @@ hr {
 .Sub-header {
     height: 50vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), 
-    url(img/banner.png);
+    background-image: linear-gradient(rgba(201, 203, 213, 0.7), rgba(102, 103, 107, 0.7)), 
+    url(img/bannern1.jpg);
     background-position: center;
     background-size: cover;
     text-align: center;
